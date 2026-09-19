@@ -243,7 +243,7 @@ export default function Home() {
                     <div
                       className="
                         relative
-                        aspect-[16/10]
+                        aspect-16/10
                         overflow-hidden
                         rounded-2xl
                         border
@@ -356,7 +356,7 @@ export default function Home() {
             id="contact"
             className="mt-32 scroll-mt-20 pb-20"
           >
-            <div className="rounded-3xl border border-zinc-800 bg-gradient-to-br from-violet-500/10 to-transparent p-8 md:p-10">
+            <div className="rounded-3xl border border-zinc-800 bg-linear-to-br from-violet-500/10 to-transparent p-8 md:p-10">
               <p className="font-mono text-xs uppercase tracking-[0.25em] text-violet-400">
                 Contact
               </p>

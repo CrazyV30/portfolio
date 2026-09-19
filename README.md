@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+A personal portfolio website built with **Next.js**, **TypeScript** and **Tailwind CSS**.
+The website showcases my experience, selected projects, technologies I work with, and ways to get in touch.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* Responsive design for desktop, tablet and mobile
+* Smooth scrolling navigation
+* Sticky personal introduction and navigation
+* Interactive project previews
+* Project descriptions and technologies
+* Experience section
+* Contact section
+* Hover animations and subtle transitions
+* Dark modern interface
+
+## 🛠️ Tech Stack
+
+* **Next.js**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+
+## 📁 Project Structure
+
+```text
+portfolio/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── public/
+│   └── projects/
+│       ├── ecommerce.png
+│       ├── products.png
+│       └── portfolio.png
+│
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Projects section contains visual previews of selected projects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Each project includes:
 
-## Learn More
+* project preview
+* project name
+* short description
+* technologies used
+* GitHub repository link
+* live demo link
 
-To learn more about Next.js, take a look at the following resources:
+Project screenshots are stored in:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+public/projects/
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Design
 
-## Deploy on Vercel
+The design combines a minimal developer portfolio layout with a more visual project presentation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The main goals of the design are:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* keep the interface clean and readable;
+* put the focus on the projects;
+* provide enough whitespace between sections;
+* use subtle animations instead of excessive effects;
+* maintain a consistent visual style throughout the website.
+
+## 📱 Responsive Design
+
+The website is designed to work across different screen sizes:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+The two-column desktop layout transforms into a single-column layout on smaller screens.
+
+## 🌐 Deployment
+
+The project can be deployed using platforms that support Next.js, such as Vercel.
+
+Before deploying, make sure that:
+
+* all project images are located in `public/projects`;
+* GitHub and Live Demo links are updated;
+* personal information has been updated;
+* environment variables are configured if they are required by future features.
+
+## 📌 Future Improvements
+
+Possible future improvements include:
+
+* [ ] Add more projects
+* [ ] Add project detail pages
+* [ ] Add real GitHub statistics
+* [ ] Add animations and page transitions
+* [ ] Add a functional contact form
+* [ ] Add backend API
+* [ ] Add database integration
+* [ ] Improve accessibility
+* [ ] Add SEO metadata
+* [ ] Deploy the final version
+
+## 📬 Contact
+
+**Viktoria**
+Full-Stack Developer
+
+* GitHub: `https://github.com/YOUR_USERNAME`
+* LinkedIn: `https://linkedin.com/in/YOUR_USERNAME`
+* Email: `viktoria.kalnyk77@gmail.com`
+
+---
+
