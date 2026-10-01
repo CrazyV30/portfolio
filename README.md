@@ -115,8 +115,8 @@ Possible future improvements include:
 **Viktoria**
 Full-Stack Developer
 
-* GitHub: `https://github.com/YOUR_USERNAME`
-* LinkedIn: `https://linkedin.com/in/YOUR_USERNAME`
+* GitHub: `https://github.com/CrazyV30`
+* LinkedIn: `https://www.linkedin.com/in/viktoria-kalnyk`
 * Email: `viktoria.kalnyk77@gmail.com`
 
 ---
